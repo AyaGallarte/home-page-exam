@@ -10,7 +10,7 @@ import { LuLogOut } from "react-icons/lu";
 import { MdOutlineBorderColor } from "react-icons/md";
 import { RiLoginBoxLine } from "react-icons/ri";
 import { LuClipboardList } from "react-icons/lu";
-import logo from '../images/logo.png'; 
+import logo from '../images/shoplogo.png'; 
 
 
 export default function AppNavbar() {
@@ -20,9 +20,9 @@ export default function AppNavbar() {
                 <Navbar.Brand as={Link} to="/">
                     <img
                         src={logo}
-                        width="40"
-                        height="23"
-                        className="d-inline-block align-top"
+                        width="90"
+                        height="20"
+                        className="d-inline-block"
                         alt="Logo"
                     />
                 </Navbar.Brand>
@@ -30,6 +30,8 @@ export default function AppNavbar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link as={NavLink} to="/"><IoHomeOutline /> Home</Nav.Link>
+                        <Nav.Link as={NavLink} to="/"><PiTShirtDuotone /> Products</Nav.Link>
+                        <Nav.Link as={NavLink} to="/"><RiLoginBoxLine /> Login</Nav.Link>
                     </Nav>                   
                 </Navbar.Collapse>
             </Container>
