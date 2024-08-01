@@ -9,7 +9,7 @@ function Hero() {
         <div className="hero">
             <Row>
                 <Col lg={4} xs={12} className="hero-first">
-                  <h1>Up to 50% off</h1>
+                  <h1>Up to 50% off!</h1>
                 </Col>
                 <Col lg={8} xs={12} className="hero-second">
                   <img src={skin5} className="d-block" alt="Hero Image" />
