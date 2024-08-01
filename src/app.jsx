@@ -4,12 +4,19 @@ import AppNavbar from './components/AppNavbar';
 import Home from './pages/Home';
 import Hero from './components/Hero';
 
+function DebugRoutes() {
+  let location = useLocation();
+  console.log(location.pathname); // This will print the current path
+
+  return null; // You can render something here if needed
+}
+
 export function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <Router>
+      <Router basename="/home-page-exam">
         <AppNavbar />
           <Routes>
             <Route path="/" element={<Home />} />
