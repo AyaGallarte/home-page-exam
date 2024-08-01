@@ -1,4 +1,3 @@
-import { useState } from 'preact/hooks'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './app.css'
 import AppNavbar from './components/AppNavbar';
