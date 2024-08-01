@@ -1,7 +1,5 @@
 import { useState } from 'preact/hooks'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import preactLogo from './assets/preact.svg'
-// import viteLogo from '/vite.svg'
 import './app.css'
 import AppNavbar from './components/AppNavbar';
 import Home from './pages/Home';
