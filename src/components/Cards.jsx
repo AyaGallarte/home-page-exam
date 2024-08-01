@@ -10,7 +10,7 @@ function Cards() {
     return (
         <Container className="container-cards">
             <Row>
-              <Col lg={6} xs={12}>
+              <Col lg={6} xs={12} className="card-column-container">
                     <Card className="card h-100">
                         <Card.Img 
                             variant="top" 
@@ -25,13 +25,13 @@ function Cards() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col lg={6} xs={12}>
-                    <Card className="card">
+                <Col lg={6} xs={12} className="card-column-container">
+                    <Card className="card h-100">
                         <Card.Img 
                             variant="top" 
                             src={skin14} 
                             className="product-image" 
-                            alt="Card Image 1" 
+                            alt="Card Image 2" 
                         />
                         <Card.Body className="cardBody">
                             <Card.Title className="custom-card-title">Reguvinating Set</Card.Title>

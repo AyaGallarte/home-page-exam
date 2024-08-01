@@ -170,16 +170,20 @@ body {
   }
 
   .container-cards {
-    width: 200%;
+    width: 190%;
     margin-top: 50px;
+  }
+
+  .card-column-container {
+      display: flex;
+      flex-direction: column;
+      height: 375px;
+
   }
 }
 
 /* Optional: Add any specific styles for smaller screens */
 @media (max-width: 991px) { /* xs and sm */
-      .home-cards {
-
-      }
 
       .home-carousel img {
         width: 100vw;
@@ -194,11 +198,15 @@ body {
         margin-bottom: 0;
     }
 
-    .container-cards {
+    .card-column-container {
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
+
     }
 }
+
+
 
 .card {
     border: 1px solid lightgray;
@@ -207,7 +215,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 380px;
     overflow: hidden;
 }
 
