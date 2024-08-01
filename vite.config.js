@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import preact from '@preact/preset-vite'
+// vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [preact()],
-})
+  plugins: [react()],
+  base: '/home-page-exam/', // Ensure this matches your GitHub repository name
+});
